@@ -97,7 +97,6 @@ p{
 	position: absolute;
 	top: 0;left:0; right: 0;
 	bottom: 0;
-	background:rgba(0,0,0,0.85);
 }
 .banner .caption-wrapper{
 	display: table;
@@ -238,7 +237,68 @@ p{
 	}
 
 }
+@media(max-width: 1918px){
 
+	.btn{
+		padding: 1em 7em;
+	}
+}
+@media(max-width: 1877px){
+
+	.btn{
+		padding: 1em 5.7em;
+	}
+}
+@media(max-width: 1646px){
+
+	.btn{
+		padding: 1em 4.7em;
+	}
+}
+@media(max-width: 1473px){
+
+	.btn{
+		padding: 1em 3.7em;
+	}
+}
+@media(max-width: 1386px){
+	.banner .caption-info p{
+		display: none;
+	}
+}
+@media(max-width: 1291px){
+	.btn{
+		padding: 1em 3em;
+	}
+	.banner .caption-info h1{
+		font: normal 4em Josefin Sans,Arial,Helvetica;
+	}
+}
+@media(max-width: 1200px){
+	.btn{
+		padding: 1em 2.5em;
+	}
+}
+@media(max-width: 1078px){
+	.btn{
+		padding: 1em 1em;
+	}
+	.banner .caption-info h1{
+		font: normal 3.2em Josefin Sans,Arial,Helvetica;
+	}
+}
+@media(max-width: 901px){
+	.btn{
+		display:none;
+	}
+	.banner .caption-info h1{
+		font: normal 1.8em Josefin Sans,Arial,Helvetica;
+		padding-top: 30%;
+	}
+	.banner .caption-info{
+		width: 35%;
+	}
+}
 @media (max-width: 900px) {
 	h1{
 		font: 700 3.5em Roboto,Arial,Helvetica;
@@ -266,7 +326,6 @@ p{
 		line-height: 1.5em;
 	}	
 }
-
 
 @media (max-width: 767px) {
 	body{
